@@ -1,0 +1,48 @@
+.voxtype-pill {
+    background-color: rgba(26, 26, 31, 0.85);
+    border: 2px solid rgba(235, 235, 242, 0.35);
+    border-radius: 12px;
+    padding: 0 14px;
+    spacing: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+}
+
+.voxtype-pill-recording {
+    border-color: #f2594d;
+}
+
+.voxtype-pill-transcribing {
+    border-color: #f2cc4d;
+}
+
+.voxtype-pill-icon {
+    icon-size: 24px;
+    color: rgba(235, 235, 242, 0.9);
+}
+
+.voxtype-pill-recording .voxtype-pill-icon {
+    color: #f2594d;
+}
+
+.voxtype-pill-transcribing .voxtype-pill-icon {
+    color: #f2cc4d;
+}
+
+.voxtype-pill-label {
+    color: #ebebf2;
+    font-size: 13px;
+    min-width: 110px;
+}
+
+.voxtype-waveform {
+    min-width: 180px;
+    min-height: 32px;
+}
+
+.voxtype-indicator-recording {
+    color: #f2594d;
+}
+
+.voxtype-indicator-transcribing {
+    color: #f2cc4d;
+}

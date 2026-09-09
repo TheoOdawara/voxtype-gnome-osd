@@ -1,0 +1,7 @@
+{
+  "uuid": "voxtype-osd@theoodawara",
+  "name": "Voxtype OSD",
+  "description": "Recording indicator and on-screen waveform for the voxtype speech-to-text daemon.",
+  "shell-version": ["50"],
+  "version": 1
+}

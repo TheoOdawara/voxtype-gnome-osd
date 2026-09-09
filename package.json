@@ -1,0 +1,16 @@
+{
+  "name": "voxtype-gnome-osd",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc -p tsconfig.test.json && node --test 'build-test/test/*.test.js'",
+    "install-extension": "./scripts/install.sh"
+  },
+  "devDependencies": {
+    "@girs/gnome-shell": "50.0.4",
+    "@types/node": "^24.13.4",
+    "typescript": "^5.9.2"
+  }
+}
