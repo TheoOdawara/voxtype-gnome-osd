@@ -53,7 +53,7 @@ export class OsdPill {
         this.container.add_child(this.label);
         this.container.add_child(this.waveform.actor);
 
-        Main.layoutManager.addTopChrome(this.container, { affectsInputRegion: false });
+        Main.layoutManager.addTopChrome(this.container);
         this.monitorsChangedId = Main.layoutManager.connect('monitors-changed', () => this.reposition());
         this.reposition();
     }
