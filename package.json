@@ -11,6 +11,6 @@
   "devDependencies": {
     "@girs/gnome-shell": "50.0.4",
     "@types/node": "^24.13.4",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   }
 }
